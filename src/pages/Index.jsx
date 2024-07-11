@@ -1,12 +1,12 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
 
-const Index = () => {
+const Home = () => {
   return (
     <div className="text-center">
-      <h1 className="text-3xl">Your Blank Canvas</h1>
-      <p>Chat with the agent to start making edits.</p>
+      <h1 className="text-4xl font-bold">Welcome to Our Application</h1>
+      <p className="mt-4 text-lg">This is a platform where you can manage your tasks efficiently and effectively.</p>
     </div>
   );
 };
 
-export default Index;
+export default Home;
